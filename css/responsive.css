@@ -111,3 +111,10 @@ img{
 .right{
   margin-top: 40px;
 }
+
+.section-heading>h2 {
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1.51282;
+  text-align: center;
+}

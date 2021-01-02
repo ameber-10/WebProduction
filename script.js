@@ -18,7 +18,7 @@ $(function(){
   
     /* タイピング文字 */
     $(".typed").typed({
-      strings:["Welcome to My Portfolio."],
+      strings:["Web Production"],
       typeSpeed:100,
       startDelay:1000,
       showCursor:false,
@@ -64,7 +64,7 @@ $(function(){
     });
 
     /* トップへ戻るボタン */
-    $('header h1,.return-button').click(function(){
+    $('header img,h1,.return-button').click(function(){
       $('body,html').animate({scrollTop:0},500);
     });
 

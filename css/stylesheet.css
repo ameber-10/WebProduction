@@ -9,6 +9,9 @@ body{
 
 li{
   list-style:none;
+  font-size: 1.8em;
+  font-weight: bold;
+  white-space: nowrap;
 }
 
 ul{
@@ -26,6 +29,12 @@ img {
   max-width: 100%;
 }
 
+/* ヘッダーの横のロゴ */
+.logo{
+  border-radius:50%;
+  width: 70px;
+  height: auto;
+}
 
 /*ヘッダー*/
 header{
@@ -164,6 +173,7 @@ main h2{
   display: inline-block;
   margin-top:20px;
   border-radius:50%;
+  
 }
 
 .about-contents{
@@ -182,6 +192,7 @@ main h2{
 
 .about-content-right h3{
   text-align: left;
+  font-size: 1.5em;
   padding-bottom: 10px;
   border-bottom: 2px solid #91C5D7;
 }
@@ -426,4 +437,13 @@ footer .wrapper small{
   color: white;
   font-size: 2rem;
   cursor: pointer;
+}
+
+
+.section-heading>h2 {
+  padding-top: 0;
+}
+
+.text-secondary,.fa-check-circle {
+  color: #ECB807;
 }
