@@ -118,3 +118,11 @@ img{
   line-height: 1.51282;
   text-align: center;
 }
+
+li{
+  font-size: 1.0em;
+}
+
+th{
+  white-space: nowrap;
+}
